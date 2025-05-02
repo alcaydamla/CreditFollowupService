@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CreditFollowupService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d51dba42015680bf5bd355102f4e689caf41eb6")]
 [assembly: System.Reflection.AssemblyProductAttribute("CreditFollowupService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CreditFollowupService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

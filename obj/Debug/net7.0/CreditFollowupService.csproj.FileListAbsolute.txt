@@ -69,3 +69,4 @@
 /Users/damlaalcay/Desktop/CreditFollowupService/obj/Debug/net7.0/CreditFollowupService.pdb
 /Users/damlaalcay/Desktop/CreditFollowupService/obj/Debug/net7.0/CreditFollowupService.genruntimeconfig.cache
 /Users/damlaalcay/Desktop/CreditFollowupService/obj/Debug/net7.0/ref/CreditFollowupService.dll
+/Users/damlaalcay/Desktop/CreditFollowupService/obj/Debug/net7.0/CreditFollowupService.sourcelink.json

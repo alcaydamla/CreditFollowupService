@@ -2,6 +2,7 @@ using Oracle.ManagedDataAccess.Client;
 using System.Net.Mail;
 using System.Net;
 using System.Data;
+using System.Globalization;
 
 namespace CreditFollowupService
 {
@@ -49,7 +50,7 @@ namespace CreditFollowupService
                         int daysLate = reader.GetInt32(3);
 
                         _logger.LogInformation($"📌 {name} - {daysLate} gün gecikmiş - {debt} TL");
-                        emailBody += $"- {name}: {daysLate} gün gecikmiş, borç: {debt:C}\n";
+                        emailBody += $"- {name}: {daysLate} gün gecikmiş, borç: {debt.ToString("C", new CultureInfo("tr-TR"))}\n";
                     }
                 }
 
